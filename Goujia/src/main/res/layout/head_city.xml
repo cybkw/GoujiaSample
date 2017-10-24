@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textdingwei"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="定位城市"
+        android:textColor="@color/txt_black" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_gray_border"
+        android:hint="定位失败"
+        android:padding="6dp"
+        android:textColor="@color/txt_gray" />
+
+    <TextView
+        android:id="@+id/textremen"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="热门城市"
+        android:textColor="@color/txt_black" />
+
+    <com.clw.goujia.ui.MyGridView
+        android:id="@+id/mgv_hot_city"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:horizontalSpacing="18dp"
+        android:listSelector="@color/bg_color"
+        android:numColumns="3"
+        android:verticalSpacing="8dp" >
+    </com.clw.goujia.ui.MyGridView>
+
+    <TextView
+        android:id="@+id/textsuoyou"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="全部城市"
+        android:textColor="@color/txt_black" />
+
+</LinearLayout>

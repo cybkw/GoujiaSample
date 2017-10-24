@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <com.clw.goujia.ui.XListView
+        android:id="@+id/xlv_tuijian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:scrollbars="none"
+        android:divider="@color/transparent"
+        android:dividerHeight="8dp" >
+    </com.clw.goujia.ui.XListView>
+
+</LinearLayout>

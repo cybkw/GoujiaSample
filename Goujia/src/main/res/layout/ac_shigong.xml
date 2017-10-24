@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/icon_back_" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="施工保障"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/bg_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="1、新墙与旧墙衔接处，旧墙墙面铲除至结构层，砌墙高度60公分以内加6-8号拉结筋一面墙的喜新不厌旧。新墙和老墙材料未必相同，湿度也大相径庭，仅用水泥黏合，二者必然只是貌合神离。假以时日，则嫌隙必生。我们在进行墙体接合时，会在新旧衔接处，将旧墙墙面铲除至结构层，砌墙高度60公分以内加6-8号拉结筋，形成强有力的内部钢筋结构，这样才轮到水泥砂浆粉墨登场，新墙旧墙自此浑然一体，喜新不厌旧，绝不简单。"
+                android:textColor="@color/txt_black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="2、楼梯面层未安装前，制作固定的临时护栏护栏，护住了什么?楼梯是孩子奔向回家的您的温馨之路，也是爱犬四步并作八步走的表演舞台。可您知道吗?并非所有的毛坯别墅之初都有护栏，这给装修带来的安全隐患不一而足。我们尊重家庭之爱，也关注工人劳动付出不应有安全之虞，因此，开工第一件事，東方柏悦专门为所有楼梯和电梯间加装醒目护拦，让安适从始至终。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="3、地面、墙面暗盒使用专用盖板保护安全，就是知微见著。家装施工现场人员较多，各工种穿插进行，极易出现意外。因此，在每一个安全细节上，東方柏悦都给予了足够的关注：地面、墙面暗盒使用专用盖板保护;线盒内未连接的线头使用红色压线帽封闭;临时开关接线部位，使用电工胶布包裹……東方柏悦对于安全细节的严格要求，既能保障工人的人身安全，也是将现场可能发生的潜在事故扼杀在萌芽中。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="4、顶面或墙面保温隔热材料为阻燃挤塑板给房子来一层夹心绒。现代科技让制冷和取暖不再成为居住的难题，然而我们还是偶尔会注意到，有的人家不用过分依赖高耗能，依然能维持冬暖夏凉的舒适状态。这得益于房屋内墙使用的一种叫做阻燃挤塑板的材料。在東方柏悦，这种材料被普遍应用于别墅装修之中，它不但有利于保温隔热，并且在发生意外时不易燃烧。瞧瞧，冬暖夏凉，环保又安全!"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="5、墙体砌筑时顶部应立砖斜砌挤紧轻体墙的“安全帽”。轻体墙砌到接近房顶时，我们会用立砖斜砌挤紧，给墙体戴上一排“帽子”!可别小看这一排“怪模样”帽子。它一方面对于墙体有施重功能，另一方面采取斜砌增强了粘合度。这样一来，整个墙体当然就会很牢固了。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="6、吊重试验如果您的头顶每天吊着一百斤的灯，大房子的特点就是“大”，灯也不例外，100斤以上的吊灯很常见。如何保证安全?我们用两倍于灯重量的物体，持续挂吊4320分钟，考验天花板与挂件连接处的牢固，这样的灯照射到的幸福，是不是要多久有多久呢?"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_sg7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="7、砌筑轻体墙用粘土砖或混凝土做地枕基础任何不附着于坚实基础的事物都是耍大戏。大宅空间，功能增减难免，轻体墙就是功能转换的主角，轻盈、保温，又隔音，但若没有一个稳固的支撑，也很容易失去站立的重心。若非灾难片中的道具，轻体墙就必须稳固屹立，我们做好硬功，以粘土砖与混凝土浇筑的地枕，让安心与舒心自由生长。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

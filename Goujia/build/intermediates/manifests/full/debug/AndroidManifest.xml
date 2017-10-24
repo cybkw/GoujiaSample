@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clw.goujia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.clw.goujia.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.clw.goujia.LoadingAc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.clw.goujia.WelcomeAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 首页 -->
+        <activity
+            android:name="com.clw.goujia.home.HomeAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 爆款 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.GjbkListAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 案例 -->
+        <activity
+            android:name="com.clw.goujia.cases.CaseAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 案例 -->
+        <activity
+            android:name="com.clw.goujia.home.PersonalAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 爆款详情 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.GjbkDetails"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 选择店铺 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.ChooseStoreAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 购买 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.BuyAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 百科 -->
+        <activity
+            android:name="com.clw.goujia.baike.BaikeAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 设置 -->
+        <activity
+            android:name="com.clw.goujia.setup.SetupAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 查看大图 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.BigImageAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 搜索 -->
+        <activity
+            android:name="com.clw.goujia.baike.SearchAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 切换城市 -->
+        <activity
+            android:name="com.clw.goujia.home.SwitchCityAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 登录 -->
+        <activity
+            android:name="com.clw.goujia.home.LoginAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 意见反馈 -->
+        <activity
+            android:name="com.clw.goujia.setup.FeedBackAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 收藏 -->
+        <activity
+            android:name="com.clw.goujia.setup.MyCollectAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 社区 -->
+        <activity
+            android:name="com.clw.goujia.community.CommunityAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 社区.特色楼盘 -->
+        <activity
+            android:name="com.clw.goujia.community.SpecialComAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+
+        <!-- VR虚拟现实 -->
+        <activity
+            android:name="com.clw.goujia.gjbk.BkVRAc"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <!-- 施工保障 -->
+        <activity
+            android:name="com.clw.goujia.cases.ShiGongAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 装修保障 -->
+        <activity
+            android:name="com.clw.goujia.cases.ZhuangXiuAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 建材百科 -->
+        <activity
+            android:name="com.clw.goujia.baike.JianCaiAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 设计百科 -->
+        <activity
+            android:name="com.clw.goujia.baike.ShejiAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 装修百科 -->
+        <activity
+            android:name="com.clw.goujia.baike.ZhuangXiuBkAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 案例详情 -->
+        <activity
+            android:name="com.clw.goujia.cases.CaseDetailsAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

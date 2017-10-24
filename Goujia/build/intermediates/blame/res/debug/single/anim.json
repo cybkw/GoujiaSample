@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\scale_out.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\anim\\alpha_out.xml"
+    }
+]

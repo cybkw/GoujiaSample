@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check_true.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\check_true.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_back_.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\icon_back_.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check_yuan_false.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\check_yuan_false.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_like.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\icon_like.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xlistview_arrow.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_next_r.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\ic_next_r.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check_yuan_true.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\check_yuan_true.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_vr.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\icon_vr.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\point_red.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\point_red.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_down.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\ic_arrow_down.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_reply.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\icon_reply.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mask.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\mask.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check_false.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\check_false.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\point.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\point.png"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_comment.png",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable-hdpi\\icon_comment.png"
+    }
+]

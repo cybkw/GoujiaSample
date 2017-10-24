@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/icon_back_" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="建材百科"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/bg_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_jc1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="房市不景气、经济也低迷……2015年，中国家电市场整体延续平稳状态。一直以来，在家电领域，厨卫电器不管在市场竞争层面，还是利润空间均处于优势，企业日子过得也相对轻松。但随着整体市场需求不足，厨电市场也逐渐告别高速增长。其中，随着房地产需求低迷，传统家电建材渠道也受到不小影响。《电器》记者注意到，在一些建材城，不乏已经转行和倒闭的门店。2016年，市场寒冬不会轻易过去，传统家电建材渠道经销商怎么办?这是横在很多从业者前的问题。但转换思维，谋求新出路是每个人的共识。
+   \n\t\t 在众人绞尽脑汁创新转型的同时，围绕精装修、整体厨房设计等点子不断酝酿和发酵。2015年，奥维数据显示：2015年前三季度，吸油烟机、燃气灶、消毒柜精装修配套量分别同比增长15.26%、18.99%和55.06%。据了解，在如日本等很多发达国家，房屋交付时就已经配备如吸油烟机、燃气灶、热水器等家电。很多国外家电企业和房地产商、燃气公司等关系十分密切。
+    据奥维有关负责人透露，2015第三季度，吸油烟机和灶具仍为一级配套产品，吸油烟机配置率有所增长，为96%;消毒柜和热水器为二等级配套产品，消毒柜和热水器配置率明显上升;其他家电为第三等级配套产品，净水器配置率增长凸显。"
+                android:textColor="@color/txt_black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_jc2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="2016年3月，一年一度的家电行业盛宴——中国家电及消费电子博览会(AWE)继续举行。其中，由中国家用电器协会、中国房地产业协会跨界合作指导的房地产采购高峰论坛将首次亮相。据介绍，该论坛将邀请万科、恒大、绿地、碧桂园、融创、鸿坤地产、华远地产、远洋地产、招商局地产、万通地产、阳光100、三盛宏业等数十家全国TOP100房地产企业采购总监及以上级别高管到会。
+ \n\t\t   房地产行业和家电行业的结合无疑给双方带来巨大的机会和利润空间。对于家电企业来说，这种B2B业务远比直接面对消费者更容易，而且销量更大。对于房地产企业来说，增加精装修则会提升房屋价值，吸引更多消费者。如果相关房屋精装配套的标准出台，那么传统只负责销售的家电建材渠道商势必受到影响。因此，面对市场需求不足，传统家电建材渠道商应该认清形势，积极应对。即使玩儿法会变，但究竟如何变，怎么变没人说得清，只能靠自己去不断学习和实践。
+    \n\t\t中国家电及消费电子博览会(AWE)为广大家电相关从业者提供一个巨大而优秀的平台。每年都有很多家电经销商参观和学习交流。据主办方有关负责人介绍，2015年，房地产开发商、建材装修公司及建材经销商等观众占比已达到10%，预计2016年这一比例还会增加。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

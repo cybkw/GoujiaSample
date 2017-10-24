@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lib-bm-ioc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Goujia/libs/lib-bm-ioc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

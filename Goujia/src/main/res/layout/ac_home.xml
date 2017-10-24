@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:visibility="gone"
+            android:textColor="@color/txt_gray" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_area"
+            android:paddingLeft="4dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_arrow_down" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/bg_gray" />
+
+    <com.clw.goujia.ui.NLPullRefreshView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nlp_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <fragment
+                    android:id="@+id/cycle_pager"
+                    android:name="com.clw.goujia.ui.CycleViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <GridView
+                    android:id="@+id/gv_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="@drawable/selector_menu"
+                    android:numColumns="5"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:verticalSpacing="8dp" >
+                </GridView>
+
+                <com.clw.goujia.ui.MyListView
+                    android:id="@+id/mlv_gjbk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:divider="@color/transparent"
+                    android:dividerHeight="10dp" >
+                </com.clw.goujia.ui.MyListView>
+            </LinearLayout>
+        </ScrollView>
+    </com.clw.goujia.ui.NLPullRefreshView>
+
+</LinearLayout>

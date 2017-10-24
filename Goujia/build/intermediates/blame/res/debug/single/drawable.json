@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_border_tranpanet.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\shape_border_tranpanet.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gray_border.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\shape_gray_border.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_border.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\shape_border.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\cb_check.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\cb_check.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottom_menu_1.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\btn_bottom_menu_1.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\selector_menu.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottom_menu_2.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\btn_bottom_menu_2.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\cb_check_yuan.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\cb_check_yuan.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottom_menu_3.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\btn_bottom_menu_3.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottom_menu_0.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\btn_bottom_menu_0.xml"
+    },
+    {
+        "merged": "F:\\GoujiaSample\\Goujia\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_border_red.xml",
+        "source": "F:\\GoujiaSample\\Goujia\\src\\main\\res\\drawable\\shape_border_red.xml"
+    }
+]

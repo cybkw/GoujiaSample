@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/icon_back_" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="装修百科"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/bg_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_zxbk1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1.选用绿色建材
+　　\n\t\t想要避免家中有过多的挥发性有机化合物，最好的原则当然是“预防胜于治疗”，最好在装修及选购家具前，就要求装修人员或家具制造者使用不含挥发性有机化合物的材料。
+\n2.提高室内通风效率
+　　\n\t\t当家中的挥发性有机化合物浓度过高时，最好的方法就是增加通风。我们每个人每分钟就需要10升的新鲜空气，然而由于长年使用冷气（现在流行的分离式冷气绝大部分没有办法交换新鲜空气），加上人们普遍错误地认为室外空气比较脏，因此室内新鲜空气的交换量便明显不足。事实上，如果室内空气交换量不够的话，除了会有挥发性有机化合物，还有接下来会提到的二氧化碳、一氧化碳等浓度也会相对提高，而这些气体在密闭空间内更会产生毒物累积的后果。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_zxbk2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3.丢掉有害家具\n\t\t如果发现房子的挥发性有机化合物主要是来自家具，如桌子等，那么建议最好的方式就是重新换过，如果觉得成本过高，也可以考虑购买符合绿色建材的合板家具。但若真的舍不得把家具扔掉，也不想再有太大花费，那么也可以使用在建材行买得到的含铝胶带，将家具密密地贴起来，因为含铝的金属胶带不会透气，可以将有害气体的散发量降至10％以下。然后再重新漆上低甲醛、低总挥发性有机化合物等的涂料，当然，这样的做法比较难兼顾到美观。
+　　\n4.种植净化空气的植物\n\t\t植物可以净化室内空气，是不争的事实了，所以不妨在室内栽种一些可以吸收挥发性有机化合物的植栽，如吊兰、虎尾兰、孔雀竹芋、非洲茉莉、马拉巴栗（发财树）、芦荟、巴西铁树、山苏、波士顿肾蕨等都可以有效降低甲醛浓度。另外，好吃又营养的九层塔及番薯叶等也都可以。"
+                android:textColor="@color/txt_black" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
